@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: aquamarine;
+}
+
+header{
+    background-color: white;
+  justify-content: space-between;
+    padding: 20px 50px;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.links a{
+    text text-decoration: none;
+    color: #333;
+    margin-left: 6px;
+
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 80px;
+}
+
+
+

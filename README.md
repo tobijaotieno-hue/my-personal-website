@@ -1,20 +1,14 @@
-# Safari Travels.
+# Hey, I'm Tobijah!
 
-A web-based modern online booking platform design to simplify your travel experience.
+"code is poetry, and I am writing my Verse."
 
-##  Featues
-- Real-Time flight availability an Pricing
-- Seat selection
-- Booking and Payment
-- E-Ticket generation
-- Flight status tracking
-- Multi-Language and Multi currency support
+Welcome to my Github Portfolio. I am a full-stack developer who loves turning ideas into things that work beautifully, with love for creating meaningful projects, and a relentless focus on writing clean, maintainable code.
 
-## Installation
-'''bash
+### Tech Toolbox
 
-git clone https: git@github.com:tobijaotieno-hue/my-personal-website.git
+Languages:
+  -HTML/CSS
 
-npm install
-
-npm start
+Dev Tools: 
+  -Git & GitHub
+  -VS Code

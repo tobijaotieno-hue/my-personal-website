@@ -12,7 +12,8 @@ A web-based modern online booking platform design to simplify your travel experi
 
 ## Installation
 '''bash
-git clone https: 
+
+git clone https: git@github.com:tobijaotieno-hue/my-personal-website.git
 
 npm install
 

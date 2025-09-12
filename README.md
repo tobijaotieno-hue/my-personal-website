@@ -6,7 +6,7 @@ This project is a personal website designed to showcase my skills, education, ba
 
 ## Project Structure
 
-my-personal-website
+my-personal-website<br>
 ├── index.html # Main HTML document for the website<br> 
 ├── stylee.css # Custom CSS styles for layout and responsiveness<br> 
 ├── logo pic.jpg # Personal/developer profile image<br> 

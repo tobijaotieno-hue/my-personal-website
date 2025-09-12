@@ -3,36 +3,133 @@
     padding: 0;
     box-sizing: border-box;
 }
-body {
-    background-color: aquamarine;
-}
 
-header{
-    background-color: white;
-  justify-content: space-between;
-    padding: 20px 50px;
-    align-items: center;
-    border-bottom: 1px solid #eee;
-}
-
-.nav {
-    list-style: none;
+/* Navbar */
+.navbar {
+    width: 100%;
+    background-color: #000000dd;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
-.links a{
-    text text-decoration: none;
-    color: #333;
-    margin-left: 6px;
 
+.logo {
+    width: 150px;
 }
 
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar li {
+    margin-left: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    color: orange;
+}
+
+/* Hero Section */
 .hero {
+    background: url('tech-background.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 100px 20px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    padding: 80px;
+    align-items: center;
+    text-align: center;
 }
 
+.hero-text h1 {
+    font-size: 60px;
+    margin: 20px 0;
+}
 
+.hero-text h3 {
+    font-size: 20px;
+    line-height: 1.6;
+}
 
+.hero-image img {
+    margin-top: 30px;
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    border: 3px solid orange;
+}
+
+/* General Sections */
+.section {
+    padding: 60px 40px;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ddd;
+}
+
+.section h2 {
+    color: darkorange;
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.section p, .section ul {
+    color: #333;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.section ul {
+    list-style: square inside;
+}
+
+.section li {
+    margin-bottom: 10px;
+}
+
+/* Highlight */
+span {
+    color: orange;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hero-text h1 {
+        font-size: 40px;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        background: #000;
+        position: absolute;
+        top: 70px;
+        right: 0;
+        width: 200px;
+        display: none;
+    }
+
+    .navbar:hover ul {
+        display: flex;
+    }
+
+    .hero-image img {
+        width: 150px;
+    }
+
+    .section {
+        padding: 40px 20px;
+    }
+}

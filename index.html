@@ -1,87 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-    <link rel="stylesheet" href="stylee.css" />
-    <title>My website</title>
-   </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="stylee.css">
+</head>
 
-   <body>
-    <header>
-      <div class="nav">
-        <h2>@ Tobijah</h2>
-        <div class="links">
-            <a href="">About</a>
-            <a href="">Skills</a>
-            <a href="">Education</a>
-            <a href="">Contact</a>
-            <a href="">Home</a>
+<body>
+    <div class="main"> 
+        <div class="navbar">
+            <img src="logo.png" class="logo">
+            <ul>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#education">EDUCATION</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
         </div>
-       </div>
-    </header>
 
-    <!--Hero Section-->
-    <section class="hero">
+        <div id="home" class="info">
+            <h3>Hi, I am <span>Tobijah</span></h3><br>
+            <h1><span>W</span>EB <span>D</span>ESIGNER</h1><br>
+            <h3>Web designer and developer from Nairobi, Kenya.<br>
+                Code is poetry, and I am writing my verse.</h3>
+        </div>
 
-        <h1>Hi There</h1>
-        <h1>I am Tobijah Muhuaya </h1>
-        <p>I Am into Software Development!</p>
-        
-    <Section id="About">
-        <h2 class="underline">About Myself</h2>
+        <div class="image">
+            <img src="logo pic.jpg" class="anim">
+        </div>
+    </div>
 
-       <h2> 👤 Personal Information</h2>
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>
+            My name is Tobijah, a passionate aspiring full-stack developer. My journey into tech began 
+            during my high school years at Kakamega School, where I discovered my love for computer studies. 
+            Currently, I'm pursuing Software Engineering at Moringa School with the goal of becoming a problem-solver 
+            through technology. I am constantly working to expand my skills and contribute meaningfully to the world of 
+            software development.
+        </p>
+    </section>
 
-    <p>
-        My name is Tobijah, a passionate aspiring full-stack developer. 
-        My journey into tech began during my high school years at Kakamega School, 
-        where I discovered my love for computer studies. Currently, I'm pursuing Software 
-        Engineering at Moringa School with the goal of becoming a problem-solver through technology.
-         I am constantly working to expand my skills and contribute meaningfully to the world of software development.
-    </p>
-    
-     
-<h2>📚 Educational Information</h2>
-    <p class="list">
-       
-      -Kenya Certificate of Secondary Education (KCSE) Year: 2024
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <h2>Education</h2>
+        <ul>
+            <li><strong>Kenya Certificate of Secondary Education (KCSE)</strong> – Year: 2024</li>
+            <li><strong>School:</strong> Kakamega School</li>
+            <li><strong>Notable Subject:</strong> Computer Studies (performed well)</li>
+            <li>Developed an interest in technology during high school.</li>
+            <li><strong>Currently:</strong> Enrolled at Moringa School</li>
+            <li><strong>Course:</strong> Software Engineering</li>
+            <li><strong>Goal:</strong> To become a Full-Stack Developer</li>
+        </ul>
+    </section>
 
-      -School: Kakamega School
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <h2>Skills</h2>
+        <ul>
+            <li>Proficient in HTML and CSS</li>
+            <li>Familiar with Visual Studio Code (VS Code) as a text editor</li>
+            <li>Capable of building basic web pages and layouts</li>
+            <li>Eager to learn and continuously improve technical skills</li>
+        </ul>
+    </section>
 
-      -Notable Subject: Computer Studies (performed well)
-
-      -Developed an interest in technology during high school.
-
-      -Currently enrolled at Moringa School
-
-      -Course: Software Engineering
-
-      -Goal: To become a Full-Stack Developer
-    </p>
-
- <h2>💻 Skills</h2>
-    <p class="list">
-
-  -Proficient in HTML and CSS
-
-  -Familiar with Visual Studio Code (VS Code) as a text editor
-
-  -Capable of building basic web pages and layouts
-
-  -Eager to learn and continuously improve technical skills
-    </p>
-   
-    <h2 class="list">📇 My Contact</h2>
-
-    <p>
-
-Name: Tobijah
-
-Phone Number: +254 734099717
-    </p>
-    </Section>
-
-
-
-   </body>
-   
-</html>   
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+        <p><strong>Name:</strong> Tobijah</p>
+        <p><strong>Phone Number:</strong> +254 734 099 717</p>
+    </section>
+</body>
+</html>

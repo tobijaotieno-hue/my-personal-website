@@ -7,12 +7,12 @@ This project is a personal website designed to showcase my skills, education, ba
 ## Project Structure
 
 my-personal-website
-├── index.html # Main HTML document for the website
-├── stylee.css # Custom CSS styles for layout and responsiveness
-├── logo pic.jpg # Personal/developer profile image
-├── tech-background.jpg # Tech-themed background image
-├── logo-placeholder.png # Placeholder for logo
-└── README.md # Project documentation
+├── index.html # Main HTML document for the website<br> 
+├── stylee.css # Custom CSS styles for layout and responsiveness<br> 
+├── logo pic.jpg # Personal/developer profile image<br> 
+├── tech-background.jpg # Tech-themed background image<br> 
+├── logo-placeholder.png # Placeholder for logo<br> 
+└── README.md # Project documentation<br> 
 
 
 ---
